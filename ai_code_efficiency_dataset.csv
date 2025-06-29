@@ -1,0 +1,1447 @@
+language,code,efficiency_score
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },65
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),72
+Python,x = [i**2 for i in range(10000)],73
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },73
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },65
+Python,"from math import sqrt
+print(sqrt(16))",58
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",78
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },77
+JavaScript,console.log([...Array(10).keys()]);,53
+Python,print('Hello World'),72
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",66
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",71
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },68
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",68
+Python,"from math import sqrt
+print(sqrt(16))",80
+Python,for i in range(10): print(i),55
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",85
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),88
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",68
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },87
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",83
+JavaScript,console.log('Hello World');,69
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",51
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },89
+Python,print([i for i in range(10)]),80
+JavaScript,for(let i=0;i<10;i++){console.log(i);},67
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",70
+Python,print('Hello World'),75
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},77
+JavaScript,console.log('Hello World');,70
+JavaScript,console.log(Math.sqrt(16));,94
+Python,print('Hello World'),70
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",75
+Python,print([i for i in range(10)]),60
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",78
+JavaScript,console.log('Hello World');,66
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",80
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },71
+JavaScript,console.log('Hello World');,70
+JavaScript,console.log([...Array(10).keys()]);,71
+JavaScript,console.log('Hello World');,74
+JavaScript,console.log('Hello World');,70
+Python,"from math import sqrt
+print(sqrt(16))",59
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",73
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},59
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),89
+Python,print([i for i in range(10)]),81
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",71
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",55
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",51
+JavaScript,console.log(Math.sqrt(16));,96
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",69
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },94
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },69
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },81
+JavaScript,console.log(Math.sqrt(16));,88
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},59
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",81
+JavaScript,console.log(Math.sqrt(16));,93
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },68
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),75
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",68
+Python,"a=[]
+for i in range(10000): a.append(i)",58
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },81
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },67
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },52
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},85
+Python,"from math import sqrt
+print(sqrt(16))",67
+JavaScript,console.log([...Array(10).keys()]);,59
+Python,print([i for i in range(10)]),68
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},66
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },53
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",54
+Python,"from math import sqrt
+print(sqrt(16))",51
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },69
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",98
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },51
+JavaScript,console.log('Hello World');,70
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",57
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",59
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",73
+Python,"a=[]
+for i in range(10000): a.append(i)",65
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",56
+Python,"a=[]
+for i in range(10000): a.append(i)",61
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",50
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",79
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },71
+Python,"from math import sqrt
+print(sqrt(16))",69
+Python,print([i for i in range(10)]),72
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",58
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",65
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",53
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },50
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",83
+Python,for i in range(10): print(i),57
+Python,"from math import sqrt
+print(sqrt(16))",80
+JavaScript,for(let i=0;i<10;i++){console.log(i);},66
+Python,print('Hello World'),62
+Python,print([i for i in range(10)]),50
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},73
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",77
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },88
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",74
+JavaScript,for(let i=0;i<10;i++){console.log(i);},82
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },80
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",80
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },76
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},71
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",81
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },78
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",57
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",79
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",72
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",84
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",81
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },75
+Python,for i in range(10): print(i),61
+Python,print('Hello World'),71
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),77
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",79
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",89
+JavaScript,console.log('Hello World');,70
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },72
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },81
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },65
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",83
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },92
+Python,print('Hello World'),62
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },71
+Python,x = [i**2 for i in range(10000)],59
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },80
+Python,for i in range(10): print(i),63
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },70
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },73
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",84
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",90
+Python,print([i for i in range(10)]),75
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },50
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",80
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },62
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},73
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",65
+JavaScript,console.log([...Array(10).keys()]);,78
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",67
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",69
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",52
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },77
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",67
+Python,"a=[]
+for i in range(10000): a.append(i)",76
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",85
+Python,print('Hello World'),62
+Python,print('Hello World'),65
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },62
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",81
+JavaScript,console.log(Math.sqrt(16));,90
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",64
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",84
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",67
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",79
+Python,"a=[]
+for i in range(10000): a.append(i)",70
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },76
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },81
+Python,"from math import sqrt
+print(sqrt(16))",78
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },57
+Python,print('Hello World'),65
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },62
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",76
+Python,for i in range(10): print(i),65
+Python,print([i for i in range(10)]),78
+Python,"a=[]
+for i in range(10000): a.append(i)",56
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",80
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },80
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),78
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },50
+Python,"from math import sqrt
+print(sqrt(16))",72
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",52
+Python,"a=[]
+for i in range(10000): a.append(i)",80
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },90
+Python,"from math import sqrt
+print(sqrt(16))",78
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",70
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",85
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",50
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },75
+Python,print('Hello World'),63
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },75
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },83
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",83
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),76
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",90
+Python,print('Hello World'),67
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },75
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",95
+Python,x = [i**2 for i in range(10000)],51
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",62
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},55
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",61
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",71
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},52
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },83
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",97
+Python,"a=[]
+for i in range(10000): a.append(i)",55
+JavaScript,for(let i=0;i<10;i++){console.log(i);},85
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",71
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },78
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },61
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",61
+Python,print('Hello World'),65
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },85
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",85
+Python,x = [i**2 for i in range(10000)],85
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },67
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",70
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",54
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),90
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",70
+JavaScript,console.log('Hello World');,66
+JavaScript,console.log('Hello World');,63
+JavaScript,console.log('Hello World');,73
+JavaScript,console.log('Hello World');,63
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",88
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),77
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },70
+JavaScript,console.log(Math.sqrt(16));,91
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",67
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",88
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",63
+Python,for i in range(10): print(i),77
+JavaScript,console.log(Math.sqrt(16));,81
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},66
+Python,"from math import sqrt
+print(sqrt(16))",50
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },83
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },59
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",72
+Python,print([i for i in range(10)]),50
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },71
+JavaScript,for(let i=0;i<10;i++){console.log(i);},82
+JavaScript,console.log(Math.sqrt(16));,85
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },69
+JavaScript,console.log([...Array(10).keys()]);,76
+Python,print('Hello World'),64
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),70
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",71
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",57
+JavaScript,console.log(Math.sqrt(16));,92
+JavaScript,console.log([...Array(10).keys()]);,65
+Python,for i in range(10): print(i),68
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",84
+Python,"from math import sqrt
+print(sqrt(16))",78
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },79
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",84
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },71
+Python,"a=[]
+for i in range(10000): a.append(i)",53
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",50
+Python,"from math import sqrt
+print(sqrt(16))",74
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),84
+Python,print([i for i in range(10)]),75
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",80
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",64
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",62
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",57
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",85
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },74
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",58
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",83
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",77
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",52
+Python,for i in range(10): print(i),66
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },85
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),88
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",50
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",50
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",69
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},70
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",51
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",62
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",62
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",54
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},80
+JavaScript,console.log('Hello World');,70
+JavaScript,console.log([...Array(10).keys()]);,78
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },81
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),90
+JavaScript,console.log([...Array(10).keys()]);,52
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },73
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",54
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",60
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",67
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",81
+Python,for i in range(10): print(i),55
+Python,for i in range(10): print(i),72
+Python,print([i for i in range(10)]),74
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",59
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},60
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},75
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },85
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",73
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },56
+Python,print([i for i in range(10)]),55
+JavaScript,for(let i=0;i<10;i++){console.log(i);},70
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },88
+JavaScript,for(let i=0;i<10;i++){console.log(i);},72
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",83
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },89
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",72
+Python,for i in range(10): print(i),57
+Python,print('Hello World'),64
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",51
+JavaScript,for(let i=0;i<10;i++){console.log(i);},84
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",81
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",71
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",50
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",71
+Python,for i in range(10): print(i),56
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",77
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",69
+Python,print('Hello World'),60
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",50
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",55
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",69
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},64
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",67
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",84
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },51
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",52
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },55
+JavaScript,console.log([...Array(10).keys()]);,53
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",76
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",84
+Python,print([i for i in range(10)]),54
+Python,for i in range(10): print(i),53
+Python,"from math import sqrt
+print(sqrt(16))",72
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",52
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",81
+Python,"a=[]
+for i in range(10000): a.append(i)",68
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },82
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",65
+Python,"from math import sqrt
+print(sqrt(16))",73
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },75
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",71
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },62
+JavaScript,console.log(Math.sqrt(16));,94
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",78
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",70
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",79
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",87
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",53
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",62
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },88
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },83
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },84
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",58
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",55
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },88
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",94
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",83
+JavaScript,console.log('Hello World');,74
+Python,print('Hello World'),75
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),73
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },58
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",51
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",76
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",68
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },77
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",86
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",67
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",62
+JavaScript,console.log('Hello World');,62
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},70
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),77
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",69
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },73
+Python,print('Hello World'),68
+JavaScript,console.log([...Array(10).keys()]);,55
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",71
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",54
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",77
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },71
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",51
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",80
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },75
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },73
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",66
+Python,print('Hello World'),68
+Python,print('Hello World'),60
+JavaScript,console.log('Hello World');,71
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },84
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",73
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },79
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",98
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",64
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",88
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },82
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",71
+JavaScript,console.log('Hello World');,70
+Python,print('Hello World'),73
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },91
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",93
+JavaScript,console.log([...Array(10).keys()]);,73
+Python,"from math import sqrt
+print(sqrt(16))",80
+JavaScript,console.log([...Array(10).keys()]);,64
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },82
+JavaScript,console.log([...Array(10).keys()]);,85
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",67
+Python,print([i for i in range(10)]),67
+Python,print([i for i in range(10)]),74
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",83
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },92
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",81
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },76
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",70
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },75
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",62
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),86
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",72
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },94
+JavaScript,console.log([...Array(10).keys()]);,73
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },51
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",90
+JavaScript,console.log('Hello World');,63
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },89
+JavaScript,for(let i=0;i<10;i++){console.log(i);},51
+Python,x = [i**2 for i in range(10000)],59
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",54
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },56
+Python,"a=[]
+for i in range(10000): a.append(i)",62
+Python,print([i for i in range(10)]),74
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },81
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",70
+JavaScript,console.log(Math.sqrt(16));,99
+Python,x = [i**2 for i in range(10000)],78
+Python,for i in range(10): print(i),72
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },50
+Python,print([i for i in range(10)]),53
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },50
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",61
+Python,print([i for i in range(10)]),70
+Python,"a=[]
+for i in range(10000): a.append(i)",81
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },80
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",70
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",64
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },88
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",56
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",61
+JavaScript,for(let i=0;i<10;i++){console.log(i);},62
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",65
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",81
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",73
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },75
+Python,for i in range(10): print(i),70
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },82
+Python,"from math import sqrt
+print(sqrt(16))",75
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},67
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },90
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",53
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },75
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",80
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",85
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),73
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),88
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",80
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",74
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",60
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},81
+JavaScript,console.log(Math.sqrt(16));,85
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",69
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",61
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",73
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },84
+Python,"a=[]
+for i in range(10000): a.append(i)",79
+JavaScript,console.log([...Array(10).keys()]);,59
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),71
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },70
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",64
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",62
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },62
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",70
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",79
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",56
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },58
+Python,print('Hello World'),75
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },79
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },76
+JavaScript,console.log(Math.sqrt(16));,89
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },95
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",69
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",68
+JavaScript,console.log(Math.sqrt(16));,98
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },70
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },79
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",88
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),71
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",63
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",51
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",64
+Python,for i in range(10): print(i),79
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",87
+JavaScript,console.log([...Array(10).keys()]);,54
+JavaScript,console.log('Hello World');,73
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",51
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },65
+JavaScript,for(let i=0;i<10;i++){console.log(i);},80
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",56
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },93
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },90
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },83
+Python,"a=[]
+for i in range(10000): a.append(i)",82
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",52
+Python,"a=[]
+for i in range(10000): a.append(i)",56
+Python,print([i for i in range(10)]),67
+Python,x = [i**2 for i in range(10000)],59
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",70
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",66
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),75
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },74
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },86
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",65
+Python,"a=[]
+for i in range(10000): a.append(i)",62
+JavaScript,console.log(Math.sqrt(16));,97
+Python,for i in range(10): print(i),50
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },93
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",69
+Python,x = [i**2 for i in range(10000)],76
+Python,for i in range(10): print(i),66
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},66
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },82
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",67
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",50
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",63
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",51
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",53
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",83
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",77
+Python,"a=[]
+for i in range(10000): a.append(i)",55
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",60
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",90
+JavaScript,console.log([...Array(10).keys()]);,64
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",52
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },76
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },75
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },50
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",59
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",65
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",59
+JavaScript,for(let i=0;i<10;i++){console.log(i);},64
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",85
+Python,x = [i**2 for i in range(10000)],75
+JavaScript,console.log([...Array(10).keys()]);,58
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),83
+Python,"a=[]
+for i in range(10000): a.append(i)",59
+JavaScript,console.log('Hello World');,64
+JavaScript,console.log('Hello World');,66
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",78
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",84
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",63
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },89
+Python,"from math import sqrt
+print(sqrt(16))",61
+Python,"from math import sqrt
+print(sqrt(16))",74
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },56
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",73
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",54
+Python,for i in range(10): print(i),63
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",61
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",80
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },57
+Python,"a=[]
+for i in range(10000): a.append(i)",70
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },81
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),71
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",62
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",61
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",67
+JavaScript,console.log([...Array(10).keys()]);,80
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),74
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },84
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },82
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",53
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },80
+JavaScript,console.log(Math.sqrt(16));,100
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },79
+Python,x = [i**2 for i in range(10000)],59
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",71
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",79
+JavaScript,for(let i=0;i<10;i++){console.log(i);},67
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },87
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",82
+Python,print('Hello World'),62
+Python,for i in range(10): print(i),58
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",80
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },72
+Python,x = [i**2 for i in range(10000)],72
+JavaScript,console.log([...Array(10).keys()]);,77
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },58
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",71
+JavaScript,for(let i=0;i<10;i++){console.log(i);},80
+Python,x = [i**2 for i in range(10000)],84
+Python,for i in range(10): print(i),80
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),78
+Python,print('Hello World'),71
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",65
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",78
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",61
+Python,print('Hello World'),71
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",60
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },83
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",50
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",82
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },58
+Python,print('Hello World'),73
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",55
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},58
+JavaScript,console.log(Math.sqrt(16));,94
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },78
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",58
+Python,print('Hello World'),74
+JavaScript,console.log([...Array(10).keys()]);,59
+Python,"from math import sqrt
+print(sqrt(16))",74
+Python,x = [i**2 for i in range(10000)],67
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",56
+Python,print('Hello World'),66
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",85
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),89
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },87
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",53
+JavaScript,console.log([...Array(10).keys()]);,78
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),73
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },69
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",56
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",66
+Python,x = [i**2 for i in range(10000)],81
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },81
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",61
+Python,"a=[]
+for i in range(10000): a.append(i)",58
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",74
+Python,print('Hello World'),66
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",57
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },85
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",51
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},73
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",68
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",69
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },88
+JavaScript,for(let i=0;i<10;i++){console.log(i);},51
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",77
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",85
+JavaScript,for(let i=0;i<10;i++){console.log(i);},60
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },82
+Python,for i in range(10): print(i),65
+Python,print('Hello World'),73
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",85
+Python,for i in range(10): print(i),79
+JavaScript,console.log([...Array(10).keys()]);,52
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },80
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },84
+Python,"a=[]
+for i in range(10000): a.append(i)",73
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",68
+Python,print('Hello World'),69
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",54
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },94
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",82
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),77
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },88
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",53
+Python,print([i for i in range(10)]),69
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },75
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },75
+JavaScript,console.log(Math.sqrt(16));,95
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",54
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },50
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",100
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",100
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",51
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },76
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",75
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",63
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",51
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",82
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },67
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",87
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",74
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",78
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",71
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",79
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",68
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",79
+JavaScript,for(let i=0;i<10;i++){console.log(i);},79
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",57
+JavaScript,console.log([...Array(10).keys()]);,82
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },90
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",56
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },86
+JavaScript,console.log('Hello World');,73
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",79
+Python,"from math import sqrt
+print(sqrt(16))",59
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",82
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },85
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",51
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },73
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },77
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },80
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },73
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },52
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",74
+JavaScript,console.log([...Array(10).keys()]);,50
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",63
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",68
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",83
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },70
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },82
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },79
+Python,print('Hello World'),60
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",52
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},70
+Python,x = [i**2 for i in range(10000)],80
+Python,x = [i**2 for i in range(10000)],66
+JavaScript,console.log(Math.sqrt(16));,81
+Python,for i in range(10): print(i),75
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",53
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",73
+Python,"from math import sqrt
+print(sqrt(16))",85
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",65
+Python,for i in range(10): print(i),66
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },71
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",69
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },69
+JavaScript,console.log('Hello World');,64
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",74
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",71
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),72
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },83
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",76
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",73
+JavaScript,for(let i=0;i<10;i++){console.log(i);},57
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",52
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",85
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",62
+Python,"from math import sqrt
+print(sqrt(16))",68
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },56
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",69
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },64
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",78
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",50
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",59
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },90
+JavaScript,for(let i=0;i<10;i++){console.log(i);},61
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},81
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",53
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",60
+Python,x = [i**2 for i in range(10000)],54
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},83
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",65
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },57
+JavaScript,console.log(Math.sqrt(16));,94
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },81
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",57
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },52
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",85
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},71
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",80
+JavaScript,console.log(Math.sqrt(16));,90
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",88
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",81
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },77
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",84
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",56
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },84
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},84
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",67
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",81
+Python,print([i for i in range(10)]),68
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",69
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",74
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",70
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),73
+Python,print('Hello World'),66
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },83
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },88
+JavaScript,console.log(Math.sqrt(16));,86
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},80
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},84
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",89
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",92
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },74
+JavaScript,console.log('Hello World');,69
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),72
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",85
+Python,"from math import sqrt
+print(sqrt(16))",72
+JavaScript,console.log('Hello World');,64
+Python,print([i for i in range(10)]),62
+Python,print('Hello World'),63
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",61
+JavaScript,console.log([...Array(10).keys()]);,73
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",75
+Python,x = [i**2 for i in range(10000)],70
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },77
+JavaScript,console.log([...Array(10).keys()]);,52
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",81
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",71
+JavaScript,console.log(Math.sqrt(16));,82
+Python,for i in range(10): print(i),57
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },70
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",78
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",59
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},69
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),74
+Python,"a=[]
+for i in range(10000): a.append(i)",68
+Python,"a=[]
+for i in range(10000): a.append(i)",83
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",72
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },90
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",74
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},75
+Python,print('Hello World'),62
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },89
+JavaScript,console.log('Hello World');,68
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",76
+Python,"a=[]
+for i in range(10000): a.append(i)",76
+JavaScript,console.log('Hello World');,74
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },76
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },57
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",83
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",62
+Python,"a=[]
+for i in range(10000): a.append(i)",85
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",72
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },72
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",61
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",61
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",73
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },84
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",69
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",54
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),70
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",64
+JavaScript,console.log(Math.sqrt(16));,91
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",86
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),73
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },82
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",75
+JavaScript,console.log([...Array(10).keys()]);,57
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },73
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },81
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },85
+Python,print('Hello World'),67
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },75
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",83
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",71
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },71
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",67
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",71
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),72
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",72
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",70
+Python,for i in range(10): print(i),65
+Python,"from math import sqrt
+print(sqrt(16))",80
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },90
+Python,print([i for i in range(10)]),66
+Python,print('Hello World'),71
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",63
+Python,"a=[]
+for i in range(10000): a.append(i)",55
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},73
+JavaScript,console.log('Hello World');,75
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },90
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",56
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",61
+JavaScript,console.log([...Array(10).keys()]);,64
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),84
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",97
+Python,x = [i**2 for i in range(10000)],85
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",61
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },54
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",66
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },54
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },70
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),79
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },67
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },54
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",83
+Python,for i in range(10): print(i),56
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",62
+JavaScript,console.log(Math.sqrt(16));,91
+JavaScript,console.log(Math.sqrt(16));,85
+Python,print('Hello World'),75
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),74
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",71
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },89
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",59
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",82
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},58
+JavaScript,console.log('Hello World');,70
+Python,x = [i**2 for i in range(10000)],53
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",84
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",84
+Python,"a=[]
+for i in range(10000): a.append(i)",75
+JavaScript,console.log([...Array(10).keys()]);,85
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },71
+JavaScript,console.log('Hello World');,70
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},76
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },53
+JavaScript,for(let i=0;i<10;i++){console.log(i);},61
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},52
+Python,for i in range(10): print(i),54
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },71
+JavaScript,console.log(Math.sqrt(16));,85
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },52
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },61
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",55
+JavaScript,console.log('Hello World');,75
+JavaScript,console.log('Hello World');,67
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },84
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },77
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",61
+JavaScript,for(let i=0;i<10;i++){console.log(i);},76
+JavaScript,for(let i=0;i<10;i++){console.log(i);},80
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },93
+JavaScript,console.log('Hello World');,72
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",55
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",61
+JavaScript,console.log('Hello World');,64
+Java,public class Main { public static void main(String[] args) { int[] arr = new int[10000]; for(int i=0;i<10000;i++){arr[i]=i;} } },83
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Hello World""); } }",74
+Python,print([i for i in range(10)]),59
+JavaScript,console.log([...Array(10).keys()]);,51
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",50
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },56
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",59
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },67
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",63
+JavaScript,for(let i=0;i<10;i++){console.log(i);},78
+Python,"i=0
+while i<10:
+  print(i)
+  i+=1",67
+JavaScript,for(let i=0;i<10;i++){console.log(i);},64
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",75
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",74
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },75
+JavaScript,"let sum=0;
+for(let i=0;i<10000;i++){sum+=i;}",84
+Python,"from math import sqrt
+print(sqrt(16))",74
+Python,"a=[]
+for i in range(10000): a.append(i)",79
+JavaScript,"let x = Array.from({length:10000}, (_,i)=>i*i);",53
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },61
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",78
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),74
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },70
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",53
+JavaScript,console.log(Math.sqrt(16));,80
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",53
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",52
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",72
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",63
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },91
+Java,public class Main { public static void main(String[] args) { System.out.println(Math.sqrt(16)); } },90
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },75
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",55
+JavaScript,console.log([...Array(10).keys()]);,51
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",72
+JavaScript,console.log('Hello World');,73
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",62
+Python,print([i for i in range(10)]),51
+Python,for i in range(10): print(i),72
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },81
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",83
+Python,for i in range(10): print(i),75
+Python,"a=[]
+for i in range(10000): a.append(i)",66
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },72
+JavaScript,for(let i=0;i<10;i++){console.log(i);},79
+Python,"import numpy as np
+a=np.arange(10)
+print(a)",97
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },54
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",63
+JavaScript,"let i=0;
+while(i<10){console.log(i);i++;}",70
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },52
+Python,"def fact(n): res=1
+for i in range(2,n+1): res*=i
+return res",52
+Python,x = [i**2 for i in range(10000)],69
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",76
+JavaScript,console.log(Math.sqrt(16));,96
+JavaScript,console.log('Hello World');,66
+Python,print([i for i in range(10)]),70
+Python,x = [i**2 for i in range(10000)],81
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",75
+Python,"from math import sqrt
+print(sqrt(16))",71
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },75
+JavaScript,for(let i=0;i<10;i++){console.log(i);},55
+Java,public class Main { public static void main(String[] args) { System.out.println(factorial(5)); } static int factorial(int n){ return n==0?1:n*factorial(n-1); } },81
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },77
+Python,print('Hello World'),63
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Efficient code""); } }",82
+Python,for i in range(10): print(i),74
+JavaScript,console.log([...Array(10).keys()]);,50
+JavaScript,function fact(n){return n==0?1:n*fact(n-1);},80
+Python,x = [i**2 for i in range(10000)],59
+Java,public class Main { public static void main(String[] args) { int i=0; while(i<10){System.out.println(i);i++;} } },62
+Java,public class Main { public static void main(String[] args) { int sum=0; for(int i=0;i<10000;i++){sum+=i;} System.out.println(sum); } },78
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },58
+Python,for i in range(10): print(i),60
+JavaScript,console.log('Hello World');,62
+JavaScript,"let nums=[];
+for(let i=0;i<5000;i++){nums.push(i);}",57
+Python,"a=[]
+for i in range(10000): a.append(i)",52
+JavaScript,for(let i=0;i<10;i++){console.log(i);},55
+Python,print([i for i in range(10)]),65
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",51
+Java,public class Main { public static void main(String[] args) { int[] nums = new int[5000]; for(int i=0;i<5000;i++){nums[i]=i;} } },60
+Java,"public class Main { public static void main(String[] args) { System.out.println(""Inefficient code""); } }",75
+Python,def factorial(n): return 1 if n==0 else n*factorial(n-1),72
+Python,"from math import sqrt
+print(sqrt(16))",65
+Java,public class Main { public static void main(String[] args) { for(int i=0;i<10;i++) System.out.println(i); } },76
+JavaScript,"let arr=[];
+for(let i=0;i<10000;i++){arr.push(i);}",56
