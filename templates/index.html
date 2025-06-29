@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Code Debugger</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #dfe9f3, #ffffff);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+            animation: fadeIn 0.6s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+        h1 {
+            text-align: center;
+            color: #0077cc;
+            margin-bottom: 30px;
+            font-size: 2.2rem;
+        }
+        label {
+            font-weight: 600;
+            margin-top: 20px;
+            display: block;
+            color: #444;
+        }
+        select, textarea, input[type="file"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 200px;
+        }
+        .button-group {
+            display: flex;
+            gap: 20px;
+            margin-top: 25px;
+        }
+        input[type="submit"], input[type="reset"] {
+            flex: 1;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        input[type="submit"] { background-color: #0077cc; color: white; }
+        input[type="submit"]:hover { background-color: #005fa3; }
+        input[type="reset"] { background-color: #eb0606; color: white; }
+        input[type="reset"]:hover { background-color: rgba(254,0,0,0.5); }
+        .result {
+            margin-top: 40px;
+            padding: 25px;
+            background-color: #f0f8ff;
+            border-left: 6px solid #0077cc;
+            border-radius: 12px;
+            animation: fadeIn 0.6s ease-in-out;
+        }
+        .result h2 { color: #0077cc; }
+        pre {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 AI Code Efficiency Debugger</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label for="language">Select Programming Language:</label>
+            <select name="language" id="language" required>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="C++">C++</option>
+            </select>
 
+            <!-- Allow both Image Upload and Text Code Entry -->
+            <label for="code_image">Upload Code Image (optional):</label>
+            <input type="file" name="code_image" accept="image/*">
+
+            {% if extracted_code %}
+                <label for="code">Extracted Code (Edit before checking):</label>
+                <textarea name="code">{{ extracted_code }}</textarea>
+            {% else %}
+                <label for="code">Or Write Your Code:</label>
+                <textarea name="code" placeholder="Write or paste your code here..."></textarea>
+            {% endif %}
+
+            <div class="button-group">
+                <input type="submit" name="action" value="Extract Code">
+                <input type="submit" name="action" value="Check Efficiency">
+                <input type="reset" value="Reset" id="resetBtn">
+            </div>
+        </form>
+
+        {% if result %}
+        <div class="result" id="resultBlock">
+            <h2>🧠 Analysis Result</h2>
+            <p><strong>Language:</strong> {{ result.language }}</p>
+            <p><strong>Prediction:</strong> {{ result.prediction }}</p>
+            <p><strong>Confidence:</strong> {{ result.confidence }}%</p>
+            {% if result.extracted_code %}
+                <p><strong>Extracted Code:</strong></p>
+                <pre>{{ result.extracted_code }}</pre>
+            {% endif %}
+            <p><strong>Code Output:</strong></p>
+            <pre>{{ result.output }}</pre>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        document.getElementById('resetBtn').addEventListener('click', function() {
+            const result = document.getElementById('resultBlock');
+            if(result) result.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
